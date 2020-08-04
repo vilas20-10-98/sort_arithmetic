@@ -21,3 +21,33 @@ done
 
 echo "all value: " ${$array[@]}
 asc=()
+
+
+while [  ${$array[@] -gt 1 ]
+
+do
+
+first=$[{array[@]}
+
+for i in ${array[@]}
+
+if [ $# -eq 0 ]
+then 
+   echo "usage error: sh script _name arg1 arg2 ...."
+else 
+    if [ -f ${dict[@]} ]
+  then
+      rm dict[@]
+fi
+
+
+for i in ${dict[@]}
+
+do 
+    echo "$i" >> {dict[@]}
+done
+
+echo "dict elemnts in ascending order"
+sort -nr {dict[@]}
+
+
