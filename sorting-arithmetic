@@ -8,3 +8,5 @@ dict[uc_3]=$(( $a + $b +$c ))
 dict[uc_4]=$(( $a + $b / $c ))
 dict[uc_5]=$(( $a % $b + $c ))
 
+echo "all the added elements of dict: " ${dict[@]}
+
