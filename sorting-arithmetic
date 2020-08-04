@@ -10,4 +10,14 @@ dict[uc_5]=$(( $a % $b + $c ))
 
 echo "all the added elements of dict: " ${dict[@]}
 echo "all the added elements of dict: " ${!dict[@]}
+ct=0
+fo value in ${dict[@]}
 
+do
+     array[$ct]=$value
+     ct=$(( $ct -1 ))
+
+done
+
+echo "all value: " ${$array[@]}
+asc=()
