@@ -2,3 +2,6 @@
 
 echo "sorting arithmetic computation"
 read-p " enter three inputs: " a b c
+declare -A dict
+dict[uc_2]=$(( $a + $b +$c ))
+
