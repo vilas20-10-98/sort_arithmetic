@@ -5,4 +5,4 @@ read-p " enter three inputs: " a b c
 declare -A dict
 dict[uc_2]=$(( $a + $b +$c ))
 dict[uc_3]=$(( $a + $b +$c ))
-
+dict[uc_4]=$(( $a + $b / $c ))
